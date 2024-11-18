@@ -77,7 +77,7 @@ def gradient_descent(X, Y, alpha, iterations):
             print(get_accuracy(predictions, Y))
     return W1, b1, W2, b2
 
-data = pd.read_csv("C:\\Users\\nasri ayoub\\Downloads\\train.csv\\train.csv")
+data = pd.read_csv("train.csv")
 
 data = np.array(data)
 m, n = data.shape
